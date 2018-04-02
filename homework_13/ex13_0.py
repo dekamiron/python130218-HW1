@@ -27,11 +27,11 @@ class Teams:
 
     # function to find players in this team
     def players_in_team(self):
-        self.players_in_team = []
+        self.players_in_team_l = []
         if players_ins:
             for player in players_ins:
                 if player.team == self.name:
-                    self.players_in_team.append(player.name)
+                    self.players_in_team_l.append(player.name)
 
 
 # function to open files and take data
